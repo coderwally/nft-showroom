@@ -1,0 +1,58 @@
+/*! `Custom` Bootstrap 5 theme */
+@import url(https://use.fontawesome.com/releases/v5.0.10/css/all.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700);
+$font-family-base:Montserrat;
+@import url(https://fonts.googleapis.com/css?family=Corben:200,300,400,700);
+$headings-font-family:Montserrat;
+
+$enable-grid-classes:false;
+$primary:#463968;
+$secondary:#dd4346;
+$success:#28975f;
+$danger:#e52b16;
+$info:#6a4ed4;
+$warning:#dbc92b;
+$light:#FFFFFF;
+$dark:#221e41;
+$enable-gradients:true;
+$body-bg:$dark;
+$body-color:$light;
+@import "bootstrap";
+
+// Add SASS theme customizations here..
+html {font-size: 0.8rem;}@include media-breakpoint-up(sm) {html {font-size: .9rem;}}@include media-breakpoint-up(md) {html {font-size: 1rem;}}@include media-breakpoint-up(lg) {html {font-size: 1.1rem;}}
+
+body {min-width:400px;}
+
+.brand {
+    display:flex;
+    flex-flow:column wrap;
+    gap:2rem;
+}
+
+.brand h1 {
+    display: flex; 
+    justify-content: center;
+    gap:1rem;
+}
+
+.connect {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+}
+
+.connect > button {
+    width: 50% !important;
+}
+
+@include media-breakpoint-up(sm) {
+    .brand {
+        flex-flow:row wrap;
+    }
+    .connect {
+        margin-left:auto;
+        min-width:50vw;
+    }
+}

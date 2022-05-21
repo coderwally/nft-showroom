@@ -1,0 +1,25 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    min-height:98vh;
+}
+
+.main {
+    padding-top: 1rem;
+}
+
+.footer {
+    font-size:small;
+    margin-top:auto;    
+    text-align: center;
+}
+
+.nftcontainer {
+    display:flex;
+    margin-top:5rem;
+    padding:1rem;
+    min-height:50vh;
+}
+
+
