@@ -12,6 +12,7 @@ export default function Home() {
             <meta name="description" content="Showroom for the NFTs in your wallet" />
             <meta charSet="UTF-8" />
             <link rel="icon" href="/favicon.ico" />
+            <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" crossOrigin="anonymous" />
         </Head>
 
         <main className={styles.main}>
